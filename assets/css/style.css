@@ -1,0 +1,222 @@
+
+   .jumbotron {
+   
+    color: #106490;
+    background-color: rgba(248, 243, 85, 0);
+    opacity: .7;
+    margin-top: 50px;
+    margin-left: auto;
+    
+    width: 55%;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .btn {
+    width:275px;
+    padding:15px;
+    font-size: 20px;
+  
+  }
+  .main-button-container {
+    max-width: 450px;
+    margin-left: auto;
+   
+  }
+
+  #mainArea {
+    margin-top:10px;
+    max-width: 50%;
+    margin-left: auto;
+    color: #106490;
+    font-size: 26px;
+    height: 500px;;
+  }
+  .timer-p {
+    margin-top: 50px;
+    font-size:24px;
+  }
+  
+  p.text-center {
+    font-size:24px;
+  }
+  .answer:hover {
+    background: #FAA825;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .answer {
+    
+    height: 55px;
+    color: #106490;
+    padding: 15px;
+    background-color: white;
+    border-radius: 4px;
+    opacity: .7;
+
+  }
+
+  img {
+    margin-top: 30px;
+    width:70%;
+    border-radius: 25px;
+    
+  }
+  .img-wrong {
+    border-radius: 25px;
+    margin-top: 40px;
+    width:60%;
+    
+  }
+  
+  .first-answer {
+    margin-top: 40px;
+  }
+  
+  .reset-button {
+    margin-top: 40px;
+  }
+  
+  .summary-correct {
+    margin-top: 40px;
+  }
+  
+  body {
+    background-image: url("assets/images/pokeball.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575px) { 
+    .timer-p {
+      margin-top: 70px;
+      margin-bottom: 30px;
+    }
+    body {
+      background-image: url('../images/pokeball.jpg');
+      background-repeat: repeat;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+    img, .img-wrong, .answer {
+      margin-top: 30px;
+      width:120%;
+      text-align: left;
+      
+      
+    }
+
+   .btn {
+      margin: auto;
+      width: 100%;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .jumbotron, #mainArea, .main-button-container {
+      margin: auto;
+      width: 100%;
+      color:#FAA825;
+      text-align: center;
+      font-size: 20px;
+    }
+   }
+  
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 800px) {  
+  body {
+    background-image: url('../images/pokeball.jpg');
+    background-repeat: repeat;
+    text-align: center;
+  }
+
+  h1 {
+      font-size: 36px;
+      font-weight: 300;
+    }
+
+  p {
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+  img, .img-wrong, .answer {
+    margin-top: 30px;
+    width:120%;
+    text-align: left;
+    
+    
+  }
+ .btn {
+    width:100%;
+  }
+  .jumbotron, #mainArea, .main-button-container {
+    margin: auto;
+    width: 100%;
+    color: #FAA825;
+    text-align: center;
+    font-size: 20px;
+
+  } 
+}
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 1440px) {  
+  body {
+    background-image: url('../images/pokeball.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  img, .img-wrong, .answer {
+    margin-top: 30px;
+    width:120%;
+    text-align: left;
+    
+    
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+ .btn {
+    width:100%;
+  }
+  .jumbotron, #mainArea, .main-button-container {
+    margin: auto;
+    width: 100%;
+    color: #FAA825;
+    text-align: center;
+    font-size: 22px;
+
+  } 
+}
