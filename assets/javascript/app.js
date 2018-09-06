@@ -100,7 +100,7 @@ function timeoutLoss() {
     unansweredTally++;
     gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" +
         "<p class='text-center'>You ran out of time!  The correct answer was: " + correctAnswers[questionCounter] + "</p>" +
-        "<img class='center-block img-wrong' src='/assets/images/x.gif'>";
+        "<img class='center-block img-wrong' src='/assets/images/giphy.gif'>";
     $("#mainArea").html(gameHTML);
     setTimeout(wait, 3000); 
 }
